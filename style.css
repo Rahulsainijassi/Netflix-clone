@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+
+body {
+    background-color: rgb(39, 34, 34);
+    padding: 0px 0px 0px 5px;
+}
+
+.background {
+    height: 700px;
+    background: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+}
+
+/* nav bar  _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ ___________________ */
+.navbar {
+    width: 80%;
+    margin: 0px 10%;
+    padding: 10px 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav img {
+    width: 140px;
+    /* z-index: 10; */
+}
+
+.navbar #language {
+    border: 1px solid white;
+    color: white;
+    padding: 4px 25px;
+    background: rgba(0, 0, 0, 0.203);
+    margin: 15px 20px;
+    border-radius: 3px;
+    font-size: 125%;
+   
+}
+
+.navbar button {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-size: 125%;
+}
+
+.navbar button:hover {
+    background-color: rgb(150, 0, 0);
+}
+
+.maintextbox {
+    color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    line-height: 180%;
+    font-size: xx-large;
+}
+
+.textbox h1 {
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.textbox p {
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.textbox>form>input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: large;
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.textbox>form>input:active {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.textbox>form>button {
+    width: 180px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    padding: 9px 5px 12px 5px;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.textbox>form>button:hover {
+    background-color: rgb(159, 5, 5);
+}
+
+/* s e c o n d     b l o c k */
+
+.tvbox {
+    margin-top: 10px;
+    padding: 80px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.tvbox>.firstbox,
+.tvbox>.secondbox {
+    width: 550px;
+    font-size: 170%;
+    margin: 0 5px;
+}
+
+.tvbox>.firstbox>h1 {
+    color: rgb(255, 255, 255);
+}
+
+.tvbox>.firstbox>p {
+    font-size: x-large;
+    padding-top: 15px;
+}
+
+.tvbox>.secondbox {
+    position: relative;
+}
+
+.tvbox>.secondbox>video {
+    position: absolute;
+    width: 390px;
+    top: 22%;
+    left: 14%;
+}
+
+.tvbox>.secondbox>img {
+    width: 530px;
+    position: relative;
+    z-index: 1;
+}
+
+/* third block*/
+
+#tbox {
+    flex-wrap: wrap-reverse;
+}
+
+/* fourth block ---------- css */
+#fsb>video {
+    width: 330px;
+    left: 100px;
+    top: 12%;
+
+}
+
+/* fifth block  */
+
+#fbox {
+
+    flex-wrap: wrap-reverse;
+}
+
+
+/* F A Q block */
+.faqblock {
+    margin-top: 10px;
+    padding: 50px 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqblock>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.faqblock>details {
+    margin: 4px;
+    overflow: hidden;
+    background-color: rgb(50, 50, 50);
+    width: 75%;
+    font-size: large;
+}
+
+.faqblock summary {
+    padding: 30px;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+}
+
+.faqblock summary:hover {
+    background-color: rgb(79, 77, 77);
+}
+
+.faqblock>details>p {
+    padding: 10px 20px;
+}
+
+.faqblock>details>:nth-child(2) {
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+/* faq f o r m div */
+
+.faqform {
+    margin-top: 20px;
+}
+
+.faqform>p {
+    margin: 20px 10px;
+    text-align: center;
+
+}
+
+.faqform>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.faqform>form>input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: large;
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.faqform>form>input:active {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.faqform>form>button {
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    /* padding: 0 0 0px 0; */
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.faqform>form>button:hover {
+    background-color: rgb(159, 5, 5);
+}
+
+/*  f o o t e r   b l  o c k  */
+.footer {
+    background-color: black;
+    margin-top: 8px;
+    line-height: 35px;
+    /* font-size: smaller; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footmain {
+    padding: 50px 10px;
+    width: 1100px;
+
+}
+
+
+.footer .footmain>h3 {
+    margin-bottom: 15px;
+}
+
+.footer>.footmain .fbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.fbox ul {
+    list-style: none;
+}
+
+.footer>.footmain>#language {
+    /* color: black; */
+    background-color: black;
+    padding: 7px 15px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.footer>.footmain>#language option {
+    background-color: rgb(103, 91, 91);
+}

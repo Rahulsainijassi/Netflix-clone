@@ -1,0 +1,99 @@
+@media (max-width:1124px) {
+    .tvbox>.firstbox {
+        text-align: center;
+        width: 90%;
+        padding-bottom: 50px;
+        transition: .5;
+    }
+}
+
+@media (max-width:800px) {
+    .textbox {
+        line-height: 150%;
+        font-size: x-large;
+        width: 90%;
+    }
+
+    .tvbox>.firstbox {
+        font-size: 150%;
+    }
+}
+
+@media (max-width:600px) {
+
+    .background{
+        height: 500px;
+        }
+
+    nav img {
+        width: 100px;
+    }
+
+    .navbar:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* width: 100%; */
+    }
+
+    .textbox {
+        line-height: 125%;
+        font-size: medium;
+        width: 95%;
+    }
+
+    .textbox h1 {
+        margin-bottom: 20px;
+    }
+
+    .textbox p {
+        font-weight: normal;
+        font-size: medium;
+    }
+
+    .textbox>form>input {
+        width: 300px;
+        height: 40px;
+    }
+
+    .textbox>form>button {
+        height: 40px;
+        font-size: large;
+        padding-bottom: 5px;
+    }
+
+    /*  _ _ _ _ _  __ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _____ */
+
+    .tvbox>.firstbox,
+    .tvbox>.firstbox p {
+        font-size: medium;
+    }
+
+    .tvbox>.secondbox {
+        transform: scale(.6);
+        margin: -100px 0;
+    }
+
+    /* footer -- --- - - -- --  */
+
+    .faqblock>details {
+        width: 90%;
+        font-size: medium;
+    }
+
+    .faqblock summary {
+        padding: 20px;
+    }
+
+    .faqform>form>input {
+        width: 300px;
+        height: 40px;
+    }
+
+    .faqform>form>button {
+        width: 170px;
+        height: 40px;
+        font-size: large;
+    }
+
+}
